@@ -1,0 +1,7 @@
+﻿# .gitignore
+/downloads/
+/.idea/
+/__pycache__/
+/venv/
+/**/*.txt
+/io-data/
