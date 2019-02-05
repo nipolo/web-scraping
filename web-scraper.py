@@ -5,9 +5,9 @@ from file_downloader import FileDownloader
 
 fileDownLoader = FileDownloader()
 for page_index in range(1, 110):
-    with open('log.txt', 'a') as log_file:
+    with open('io-data/log.txt', 'a') as log_file:
         try:
-            with open('t-shirt-links.txt', 'a') as t_shirt_links:
+            with open('io-data/t-shirt-links.txt', 'a') as t_shirt_links:
                 t_shirt_links.write('Starting to process page {0}\n'.format(page_index))
                 headers = {
                     'user-agent': 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
